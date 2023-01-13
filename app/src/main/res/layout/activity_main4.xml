@@ -10,41 +10,45 @@
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
         android:layout_marginTop="32dp"
         android:onClick="newActivity3"
         android:text="Atšaukti"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
-        tools:layout_editor_absoluteX="151dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
         android:layout_marginTop="128dp"
         android:onClick="newActivity3"
         android:text="Sukurti raktą"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
-        tools:layout_editor_absoluteX="129dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="120dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Spynos pavadinimas"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Spynos kodas"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

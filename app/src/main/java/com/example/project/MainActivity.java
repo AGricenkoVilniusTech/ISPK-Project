@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void movepage(View v) {
-        Intent intent = new Intent(this, MainActivity2.class);
+        Intent intent = new Intent(this, MainActivity7.class);
         startActivity(intent);
     }
 

@@ -10,50 +10,55 @@
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="64dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Spynos pavadinimas"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <EditText
         android:id="@+id/editTextTextPersonName6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Spynos kodas"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
         android:layout_marginTop="128dp"
         android:text="Pridėti spyną"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="164dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
         android:layout_marginTop="32dp"
         android:onClick="newActivity2"
         android:text="Grįžti"
-        app:layout_constraintTop_toBottomOf="@+id/button13"
-        tools:layout_editor_absoluteX="161dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
 
     <Button
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
         android:layout_marginTop="64dp"
         android:onClick="newActivity2"
         android:text="Pridėti spyną"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
-        tools:layout_editor_absoluteX="131dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
 </androidx.constraintlayout.widget.ConstraintLayout>

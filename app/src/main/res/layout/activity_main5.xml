@@ -10,18 +10,21 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
         android:layout_marginTop="128dp"
         android:text="Turimi raktai"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="166dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="256dp"
         android:layout_height="128dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="30dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="190dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
 
         <TextView
             android:id="@+id/textView10"
@@ -42,19 +45,21 @@
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
         android:layout_marginTop="32dp"
         android:onClick="newActivity7"
         android:text="Grįžti"
-        app:layout_constraintTop_toBottomOf="@+id/button11"
-        tools:layout_editor_absoluteX="161dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
         android:layout_marginTop="32dp"
         android:onClick="newActivity8"
         android:text="Panaudoti raktą"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        tools:layout_editor_absoluteX="117dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
