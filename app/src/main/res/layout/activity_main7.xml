@@ -10,6 +10,7 @@
         android:id="@+id/button17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="newActivity8"
         android:text="Aktyvuoti raktą"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="311dp" />
@@ -18,6 +19,7 @@
         android:id="@+id/button18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="newActivity2"
         android:text="Redaguoti spynų konfiguraciją"
         tools:layout_editor_absoluteX="54dp"
         tools:layout_editor_absoluteY="376dp" />
@@ -26,6 +28,7 @@
         android:id="@+id/button19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="newActivity5"
         android:text="Turimu raktų sąrašas"
         tools:layout_editor_absoluteX="93dp"
         tools:layout_editor_absoluteY="441dp" />
@@ -42,6 +45,7 @@
         android:id="@+id/button20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="newActivity1"
         android:text="Atsijungti"
         tools:layout_editor_absoluteX="144dp"
         tools:layout_editor_absoluteY="508dp" />

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         clk = (Button) findViewById(R.id.button16);
     }
 
-    public void movepage(View v) {
+    public void movepage1(View v) {
         String stname = editTextTextPersonName.getText().toString();
         String stname2 = editTextTextPersonName2.getText().toString();
 
@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+    }
+
+    public void movepage(View v) {
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
     }
 
 }
